@@ -1,4 +1,4 @@
-package pageUIs.PIMPageUIs;
+package pageUIs;
 
 public class DashboardPageUI {
 

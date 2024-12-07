@@ -1,9 +1,8 @@
-package pageObjects.PIMPageObjects;
+package pageObjects;
 
-import commons.BaseElement;
 import org.openqa.selenium.WebDriver;
 
-public class DashboardPageObject extends BaseElement {
+public class DashboardPageObject extends CommonPageObject {
     private WebDriver driver;
 
     public DashboardPageObject(WebDriver driver) {

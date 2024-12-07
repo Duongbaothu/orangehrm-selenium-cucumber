@@ -17,7 +17,7 @@ Session ID: 235423ce09e1b268a7ba8194e2163f4c
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
 at commons.BasePage.waitForElementVisible(BasePage.java:413)
-at commons.BaseElement.enterToTextboxByText(BaseElement.java:42)
+at pageObjects.CommonPageObject.enterToTextboxByText(BaseElement.java:42)
 at admin.Admin_01_Job_Titles.beforeClass(Admin_01_Job_Titles.java:42)
 at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)

@@ -1,89 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
   <reporter-output>
-    <line>
-      <![CDATA[Remove all file in ReportNG screenshot (image)]]>
-    </line>
-    <line>
-      <![CDATA[Delete success]]>
-    </line>
-    <line>
-      <![CDATA[Remove all file in Allure attachment (json file)]]>
-    </line>
-    <line>
-      <![CDATA[OS name = windows 10]]>
-    </line>
-    <line>
-      <![CDATA[Driver instance name = chromedriver: chrome on windows (a08123e79905dd27cf195499b4a2e815)]]>
-    </line>
   </reporter-output>
-  <suite started-at="2024-11-22T17:08:46 ICT" name="OrangeHRM" finished-at="2024-11-22T17:09:11 ICT" duration-ms="24364">
+  <suite started-at="2024-12-07T20:33:57 ICT" name="Surefire suite" finished-at="2024-12-07T20:34:26 ICT" duration-ms="29442">
     <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@3d51f06e]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-11-22T17:08:46 ICT" name="Run on Chrome Browser" finished-at="2024-11-22T17:09:11 ICT" duration-ms="24364">
-      <class name="admin.Admin_01_Job_Titles">
-        <test-method is-config="true" signature="deleteFileInReport()[pri:0, instance:admin.Admin_01_Job_Titles@5286c33a]" started-at="2024-11-22T17:08:46 ICT" name="deleteFileInReport" finished-at="2024-11-22T17:08:46 ICT" duration-ms="17" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Remove all file in ReportNG screenshot (image)]]>
-            </line>
-            <line>
-              <![CDATA[Delete success]]>
-            </line>
-            <line>
-              <![CDATA[Remove all file in Allure attachment (json file)]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- deleteFileInReport -->
-        <test-method is-config="true" signature="beforeClass(java.lang.String,java.lang.String)[pri:0, instance:admin.Admin_01_Job_Titles@5286c33a]" started-at="2024-11-22T17:08:46 ICT" name="beforeClass" finished-at="2024-11-22T17:08:58 ICT" duration-ms="11301" status="PASS">
+    <test started-at="2024-12-07T20:33:57 ICT" name="Surefire test" finished-at="2024-12-07T20:34:26 ICT" duration-ms="29442">
+      <class name="cucumberOptions.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cucumberOptions.TestRunner@3d51f06e]" started-at="2024-12-07T20:33:57 ICT" name="setUpClass" finished-at="2024-12-07T20:33:57 ICT" duration-ms="486" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://localhost:8443/orangehrm5/]]>
+                <![CDATA[org.testng.TestRunner@4a1e86a3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@3d51f06e]" started-at="2024-12-07T20:33:57 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-07T20:34:11 ICT" duration-ms="13720" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Log into to OrangeHRM site as Admin role successfully"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA["Login to OrangeHRM site"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method signature="Job_Title_01_Add_New_Empty_Data(java.lang.reflect.Method)[pri:0, instance:admin.Admin_01_Job_Titles@5286c33a]" started-at="2024-11-22T17:08:58 ICT" name="Job_Title_01_Add_New_Empty_Data" finished-at="2024-11-22T17:09:01 ICT" duration-ms="2938" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@3d51f06e]" started-at="2024-12-07T20:34:11 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-07T20:34:18 ICT" duration-ms="7554" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void admin.Admin_01_Job_Titles.Job_Title_01_Add_New_Empty_Data(java.lang.reflect.Method)]]>
+                <![CDATA["Add new Pay Grades fail when input empty data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add new Pay Grades"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Job_Title_01_Add_New_Empty_Data -->
-        <test-method signature="Job_Title_02_Add_New_Sucess(java.lang.reflect.Method)[pri:0, instance:admin.Admin_01_Job_Titles@5286c33a]" started-at="2024-11-22T17:09:01 ICT" name="Job_Title_02_Add_New_Sucess" finished-at="2024-11-22T17:09:10 ICT" duration-ms="9742" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@3d51f06e]" started-at="2024-12-07T20:34:18 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-07T20:34:26 ICT" duration-ms="7612" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void admin.Admin_01_Job_Titles.Job_Title_02_Add_New_Sucess(java.lang.reflect.Method)]]>
+                <![CDATA["Add new Pay Grades successfully"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add new Pay Grades"]]>
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Pay Grade 218] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Pay Grade 218] but found []
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at stepDefinitions.CommonPageSteps.verifyTextboxTextDisplays(CommonPageSteps.java:169)
+at ✽.Verify "Name" textbox text displays "1"(file:///D:/Automation%20testing/03%20-%20Java%20Hybrid%20Framework/orangehrm-selenium-cucumber/src/test/java/features/03_admin_pay_grades.feature:19)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Job_Title_02_Add_New_Sucess -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:admin.Admin_01_Job_Titles@5286c33a]" started-at="2024-11-22T17:09:10 ICT" name="afterClass" finished-at="2024-11-22T17:09:11 ICT" duration-ms="341" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucumberOptions.TestRunner@3d51f06e]" started-at="2024-12-07T20:34:26 ICT" name="tearDownClass" finished-at="2024-12-07T20:34:26 ICT" duration-ms="34" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[OS name = windows 10]]>
-            </line>
-            <line>
-              <![CDATA[Driver instance name = chromedriver: chrome on windows (a08123e79905dd27cf195499b4a2e815)]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- admin.Admin_01_Job_Titles -->
-    </test> <!-- Run on Chrome Browser -->
-  </suite> <!-- OrangeHRM -->
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumberOptions.TestRunner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
 </testng-results>

@@ -1,9 +1,9 @@
 package pageObjects.AdminPageObjects;
 
-import commons.BaseElement;
+import pageObjects.CommonPageObject;
 import org.openqa.selenium.WebDriver;
 
-public class EmploymentStatusPageObject extends BaseElement {
+public class EmploymentStatusPageObject extends CommonPageObject {
     private WebDriver driver;
 
     public EmploymentStatusPageObject(WebDriver driver) {

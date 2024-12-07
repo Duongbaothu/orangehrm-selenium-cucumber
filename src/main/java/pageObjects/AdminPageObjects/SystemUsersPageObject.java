@@ -1,9 +1,9 @@
 package pageObjects.AdminPageObjects;
 
-import commons.BaseElement;
+import pageObjects.CommonPageObject;
 import org.openqa.selenium.WebDriver;
 
-public class SystemUsersPageObject extends BaseElement {
+public class SystemUsersPageObject extends CommonPageObject {
     private WebDriver driver;
 
     public SystemUsersPageObject(WebDriver driver) {

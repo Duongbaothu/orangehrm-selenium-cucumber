@@ -1,10 +1,10 @@
 package pageObjects.PIMPageObjects;
 
-import commons.BaseElement;
+import pageObjects.CommonPageObject;
 import org.openqa.selenium.WebDriver;
 import pageUIs.PIMPageUIs.EmployeeListPageUI;
 
-public class EmployeeListPageObject extends BaseElement {
+public class EmployeeListPageObject extends CommonPageObject {
     private WebDriver driver;
 
     public EmployeeListPageObject(WebDriver driver) {

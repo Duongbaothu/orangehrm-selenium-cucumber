@@ -1,11 +1,11 @@
 package pageObjects.PIMPageObjects;
 
-import commons.BaseElement;
+import pageObjects.CommonPageObject;
 import commons.GlobalConstants;
 import org.openqa.selenium.WebDriver;
 import pageUIs.PIMPageUIs.ChangeProfilePicturePageUI;
 
-public class ChangeProfilePicturePageObject extends BaseElement {
+public class ChangeProfilePicturePageObject extends CommonPageObject {
     private WebDriver driver;
 
     public ChangeProfilePicturePageObject(WebDriver driver) {

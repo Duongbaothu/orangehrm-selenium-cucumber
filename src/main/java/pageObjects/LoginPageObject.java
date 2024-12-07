@@ -1,10 +1,9 @@
-package pageObjects.PIMPageObjects;
+package pageObjects;
 
-import commons.BaseElement;
 import org.openqa.selenium.WebDriver;
 import utilities.PropertiesConfig;
 
-public class LoginPageObject extends BaseElement {
+public class LoginPageObject extends CommonPageObject {
     private PropertiesConfig propertiesConfig;
     private WebDriver driver;
 

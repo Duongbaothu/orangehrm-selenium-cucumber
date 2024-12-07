@@ -176,3 +176,51 @@ Session ID: 72b6b3ad7170e6497a493d847cf174f5
 [01-12-2024 09:45:32.856 INFO admin.Admin_01_Job_Titles] - Driver instance name = 
 [01-12-2024 09:45:32.857 WARN admin.Admin_01_Job_Titles] - Could not determine browser driver name, skipping kill command.
 [01-12-2024 09:45:32.857 WARN admin.Admin_01_Job_Titles] - Command is null, skipping process execution.
+[07-12-2024 14:00:36.627 INFO cucumberOptions.Hooks] - Opened URL for environment [demo]: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[07-12-2024 14:00:36.640 INFO cucumberOptions.Hooks] - ------------- Started the browser -------------
+[07-12-2024 14:13:40.992 INFO cucumberOptions.Hooks] - Opened URL for environment [demo]: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[07-12-2024 14:13:41.006 INFO cucumberOptions.Hooks] - ------------- Started the browser -------------
+[07-12-2024 14:21:46.986 INFO cucumberOptions.Hooks] - Opened URL for environment [demo]: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[07-12-2024 14:21:46.998 INFO cucumberOptions.Hooks] - ------------- Started the browser -------------
+[07-12-2024 14:27:19.765 INFO cucumberOptions.Hooks] - Opened URL for environment [local]: https://localhost:8443/orangehrm5/
+[07-12-2024 14:27:19.813 INFO cucumberOptions.Hooks] - ------------- Started the browser -------------
+[07-12-2024 14:35:14.567 INFO cucumberOptions.Hooks] - Opened URL for environment [demo]: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[07-12-2024 14:35:14.649 INFO cucumberOptions.Hooks] - ------------- Started the browser -------------
+[07-12-2024 14:36:49.902 INFO cucumberOptions.Hooks] - Opened URL for environment [local]: https://localhost:8443/orangehrm5/
+[07-12-2024 14:36:50.043 INFO cucumberOptions.Hooks] - ------------- Started the browser -------------
+[07-12-2024 14:51:54.219 INFO cucumberOptions.Hooks] - Opened URL for environment [demo]: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[07-12-2024 14:51:54.307 INFO cucumberOptions.Hooks] - ------------- Started the browser -------------
+[07-12-2024 15:06:47.429 INFO cucumberOptions.Hooks] - Opened URL for environment [demo]: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[07-12-2024 15:06:47.519 INFO cucumberOptions.Hooks] - ------------- Started the browser -------------
+[07-12-2024 15:10:32.712 INFO cucumberOptions.Hooks] - Opened URL for environment [demo]: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[07-12-2024 15:10:32.776 INFO cucumberOptions.Hooks] - ------------- Started the browser -------------
+[07-12-2024 15:28:35.266 INFO cucumberOptions.Hooks] - Opened URL for environment [demo]: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[07-12-2024 15:28:35.354 INFO cucumberOptions.Hooks] - ------------- Started the browser -------------
+[07-12-2024 18:26:57.576 INFO cucumberOptions.Hooks] - Opened URL for environment [demo]: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[07-12-2024 18:26:57.652 INFO cucumberOptions.Hooks] - ------------- Started the browser -------------
+[07-12-2024 18:36:35.326 INFO cucumberOptions.Hooks] - Opened URL for environment [demo]: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[07-12-2024 18:36:35.401 INFO cucumberOptions.Hooks] - ------------- Started the browser -------------
+[07-12-2024 18:44:57.704 INFO cucumberOptions.Hooks] - Opened URL for environment [demo]: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[07-12-2024 18:44:57.787 INFO cucumberOptions.Hooks] - ------------- Started the browser -------------
+[07-12-2024 18:53:01.518 INFO cucumberOptions.Hooks] - Opened URL for environment [demo]: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[07-12-2024 18:53:01.594 INFO cucumberOptions.Hooks] - ------------- Started the browser -------------
+[07-12-2024 19:08:22.109 INFO cucumberOptions.Hooks] - Opened URL for environment [demo]: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[07-12-2024 19:08:22.175 INFO cucumberOptions.Hooks] - ------------- Started the browser -------------
+[07-12-2024 19:15:39.217 INFO cucumberOptions.Hooks] - Opened URL for environment [demo]: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[07-12-2024 19:15:39.279 INFO cucumberOptions.Hooks] - ------------- Started the browser -------------
+[07-12-2024 19:21:00.150 INFO cucumberOptions.Hooks] - Opened URL for environment [demo]: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[07-12-2024 19:21:00.230 INFO cucumberOptions.Hooks] - ------------- Started the browser -------------
+[07-12-2024 19:45:19.210 INFO cucumberOptions.Hooks] - Opened URL for environment [demo]: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[07-12-2024 19:45:19.306 INFO cucumberOptions.Hooks] - ------------- Started the browser -------------
+[07-12-2024 19:56:29.996 INFO cucumberOptions.Hooks] - Opened URL for environment [demo]: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[07-12-2024 19:56:30.078 INFO cucumberOptions.Hooks] - ------------- Started the browser -------------
+[07-12-2024 19:57:45.612 INFO cucumberOptions.Hooks] - Opened URL for environment [demo]: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[07-12-2024 19:57:45.685 INFO cucumberOptions.Hooks] - ------------- Started the browser -------------
+[07-12-2024 20:00:18.094 INFO cucumberOptions.Hooks] - Opened URL for environment [demo]: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[07-12-2024 20:00:18.153 INFO cucumberOptions.Hooks] - ------------- Started the browser -------------
+[07-12-2024 20:19:08.875 INFO cucumberOptions.Hooks] - Opened URL for environment [demo]: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[07-12-2024 20:19:08.935 INFO cucumberOptions.Hooks] - ------------- Started the browser -------------
+[07-12-2024 20:28:53.359 INFO cucumberOptions.Hooks] - Opened URL for environment [demo]: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[07-12-2024 20:28:53.448 INFO cucumberOptions.Hooks] - ------------- Started the browser -------------
+[07-12-2024 20:34:06.603 INFO cucumberOptions.Hooks] - Opened URL for environment [demo]: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[07-12-2024 20:34:06.690 INFO cucumberOptions.Hooks] - ------------- Started the browser -------------

@@ -1,11 +1,11 @@
 package pageObjects.PIMPageObjects;
 
-import commons.BaseElement;
+import pageObjects.CommonPageObject;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import testData.EmployeeInfo;
 
-public class ImmigrationPageObject extends BaseElement {
+public class ImmigrationPageObject extends CommonPageObject {
     private WebDriver driver;
 
     public ImmigrationPageObject(WebDriver driver) {

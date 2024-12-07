@@ -1,9 +1,9 @@
 package pageObjects.PIMPageObjects;
 
-import commons.BaseElement;
+import pageObjects.CommonPageObject;
 import org.openqa.selenium.WebDriver;
 
-public class AddEmployeePageObject extends BaseElement {
+public class AddEmployeePageObject extends CommonPageObject {
     private WebDriver driver;
 
     public AddEmployeePageObject(WebDriver driver) {

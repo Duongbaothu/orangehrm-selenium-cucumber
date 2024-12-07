@@ -1,12 +1,12 @@
 package pageObjects.PIMPageObjects;
 
 import pageUIs.PIMPageUIs.PersonalDetailsPageUI;
-import commons.BaseElement;
+import pageObjects.CommonPageObject;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import testData.EmployeeInfo;
 
-public class PersonalDetailsPageObject extends BaseElement {
+public class PersonalDetailsPageObject extends CommonPageObject {
     private WebDriver driver;
 
     public PersonalDetailsPageObject(WebDriver driver) {

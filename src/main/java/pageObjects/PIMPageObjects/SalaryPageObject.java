@@ -1,12 +1,12 @@
 package pageObjects.PIMPageObjects;
 
-import commons.BaseElement;
+import pageObjects.CommonPageObject;
 import org.openqa.selenium.WebDriver;
 import pageUIs.PIMPageUIs.SalaryPageUI;
 import org.testng.Assert;
 import testData.EmployeeInfo;
 
-public class SalaryPageObject extends BaseElement {
+public class SalaryPageObject extends CommonPageObject {
     private WebDriver driver;
 
     public SalaryPageObject(WebDriver driver) {

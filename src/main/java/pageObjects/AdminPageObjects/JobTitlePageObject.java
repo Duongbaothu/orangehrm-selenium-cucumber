@@ -1,9 +1,9 @@
 package pageObjects.AdminPageObjects;
 
-import commons.BaseElement;
+import pageObjects.CommonPageObject;
 import org.openqa.selenium.WebDriver;
 
-public class JobTitlePageObject extends BaseElement {
+public class JobTitlePageObject extends CommonPageObject {
     private WebDriver driver;
 
     public JobTitlePageObject(WebDriver driver) {

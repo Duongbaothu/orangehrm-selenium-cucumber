@@ -1,5 +1,7 @@
-package commons;
+package pageObjects;
 
+import commons.BasePage;
+import commons.GlobalConstants;
 import org.openqa.selenium.WebDriver;
 import pageUIs.BaseElementUI;
 import org.openqa.selenium.WebElement;
@@ -8,10 +10,10 @@ import testData.EmployeeInfo;
 
 import java.util.List;
 
-public class BaseElement extends BasePage{
+public class CommonPageObject extends BasePage {
     WebDriver driver;
 
-    public BaseElement(WebDriver driver){
+    public CommonPageObject(WebDriver driver){
         this.driver = driver;
     }
 
@@ -71,7 +73,7 @@ public class BaseElement extends BasePage{
     }
 
     public boolean isValueDisplayedAtColumnName(String columnName, String rowIndex, String rowValue) {
-        int columnIndex = getListElementSize(driver, BaseElementUI.DYNAMIC_INDEX_BY_COLUMN_NAME, columnName) + 1;
+        int columnIndex = getListElementSize(driver, BaseElementUI.DYNAMIC_INDEX_BY_COLUMN_NAME, columnName) + 2;
         return isElementDisplayed(driver, BaseElementUI.DYNAMIC_ROW_VALUE_BY_COLUMN_INDEX_ROW_INDEX, rowIndex, String.valueOf(columnIndex), rowValue);
     }
 
@@ -184,4 +186,9 @@ public class BaseElement extends BasePage{
 
         Assert.assertTrue(isFileLoadedSuccess("Select File", employeeInfo.getImage()));
     }
+
+    public String getCurrentPageUrl() {
+        return getCurrentPageUrl(driver);
+    }
+
 }
