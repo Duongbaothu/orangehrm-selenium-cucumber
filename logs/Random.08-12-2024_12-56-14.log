@@ -1,0 +1,3 @@
+[08-12-2024 12:56:15.022 INFO cucumberOptions.Hooks] - TestContext initialized
+[08-12-2024 12:56:19.863 INFO cucumberOptions.Hooks] - Opened URL for environment [demo]: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[08-12-2024 12:56:19.948 INFO cucumberOptions.Hooks] - ------------- Started the browser -------------
