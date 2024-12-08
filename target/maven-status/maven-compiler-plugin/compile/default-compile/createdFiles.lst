@@ -43,3 +43,4 @@ pageUIs\PIMPageUIs\EmployeeListPageUI.class
 pageObjects\AdminPageObjects\EmploymentStatusPageObject.class
 pageObjects\PIMPageObjects\ContactDetailsPageObject.class
 pageUIs\LoginPageUI.class
+pageUIs\AdminPageUIs\PayGradePageUI.class

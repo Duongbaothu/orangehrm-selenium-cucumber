@@ -73,7 +73,7 @@ public class CommonPageObject extends BasePage {
     }
 
     public boolean isValueDisplayedAtColumnName(String columnName, String rowIndex, String rowValue) {
-        int columnIndex = getListElementSize(driver, BaseElementUI.DYNAMIC_INDEX_BY_COLUMN_NAME, columnName) + 2;
+        int columnIndex = getListElementSize(driver, BaseElementUI.DYNAMIC_INDEX_BY_COLUMN_NAME, columnName) + 1;
         return isElementDisplayed(driver, BaseElementUI.DYNAMIC_ROW_VALUE_BY_COLUMN_INDEX_ROW_INDEX, rowIndex, String.valueOf(columnIndex), rowValue);
     }
 
@@ -189,6 +189,11 @@ public class CommonPageObject extends BasePage {
 
     public String getCurrentPageUrl() {
         return getCurrentPageUrl(driver);
+    }
+
+    public void clickToSaveButtonWithHeader(String headerName) {
+        waitForElementClickable(driver, BaseElementUI.SAVE_BUTTON_WITH_HEADER_NAME, headerName);
+        clickToElement(driver, BaseElementUI.SAVE_BUTTON_WITH_HEADER_NAME, headerName);
     }
 
 }
