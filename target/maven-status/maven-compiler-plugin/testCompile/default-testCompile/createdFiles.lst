@@ -8,14 +8,12 @@ stepDefinitions\PIM\ContactDetailsPageSteps.class
 stepDefinitions\TestContext.class
 stepDefinitions\PIM\EmergencyContactsPageSteps.class
 stepDefinitions\CommonPageSteps.class
-admin\Admin_00_System_Users.class
 stepDefinitions\PIM\PersonalDetailsPageSteps.class
 stepDefinitions\LoginPageSteps.class
 stepDefinitions\PIM\SalaryPageSteps.class
 stepDefinitions\PIM\DependentsPageSteps.class
 cucumberOptions\Hooks$BrowserCleanup.class
 stepDefinitions\PIM\DashboardPageSteps.class
-admin\Admin_04_Job_Categories_01.class
 stepDefinitions\PIM\QualificationsPageSteps.class
 stepDefinitions\PIM\EmployeeListPageSteps.class
 cucumberOptions\Hooks.class

@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Surefire_suite" class="navigator-link">
-              <span class="suite-name border-passed">Surefire suite</span>
+              <span class="suite-name border-failed">Surefire suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,7 +92,31 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">8 methods,   8 passed</span>
+                    <span class="method-stats">14 methods, 3 failed,   11 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods failed suite-Surefire_suite"> (hide)</a> <!-- hide-methods failed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods failed suite-Surefire_suite"> (show)</a> <!-- show-methods failed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Surefire_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="cucumberOptions.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Update Immigration for employee&quot;, &quot;Add new Employee&quot;)">runScenario("Update Immigration for employee", "Add new Employee")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="cucumberOptions.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Update Personal Details for employee&quot;, &quot;Add new Employee&quot;)">runScenario("Update Personal Details for employee", "Add new Employee")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="cucumberOptions.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Update Dependents for employee&quot;, &quot;Add new Employee&quot;)">runScenario("Update Dependents for employee", "Add new Employee")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Surefire_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,7 +127,7 @@
                     <div class="method-list-content passed suite-Surefire_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="cucumberOptions.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Add new Employee&quot;, &quot;Add new Employee&quot;)">runScenario("Add new Employee", "Add new Employee")</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="cucumberOptions.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Add new Job Title fail when input empty data&quot;, &quot;Add new Job Title&quot;)">runScenario("Add new Job Title fail when input empty data", "Add new Job Title")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -113,7 +137,12 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="cucumberOptions.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Log into to OrangeHRM site as Admin role successfully&quot;, &quot;Login to OrangeHRM site&quot;)">runScenario("Log into to OrangeHRM site as Admin role successfully", "Login to OrangeHRM site")</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="cucumberOptions.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Add new Employee&quot;, &quot;Add new Employee&quot;)">runScenario("Add new Employee", "Add new Employee")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="cucumberOptions.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Add new Pay Grades fail when input empty data&quot;, &quot;Add new Pay Grades&quot;)">runScenario("Add new Pay Grades fail when input empty data", "Add new Pay Grades")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -123,12 +152,22 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="cucumberOptions.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Update Immigration for employee&quot;, &quot;Add new Employee&quot;)">runScenario("Update Immigration for employee", "Add new Employee")</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="cucumberOptions.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Log into to OrangeHRM site as Admin role successfully&quot;, &quot;Login to OrangeHRM site&quot;)">runScenario("Log into to OrangeHRM site as Admin role successfully", "Login to OrangeHRM site")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="cucumberOptions.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Update Personal Details for employee&quot;, &quot;Add new Employee&quot;)">runScenario("Update Personal Details for employee", "Add new Employee")</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="cucumberOptions.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Add new Employment Status fail when input empty data&quot;, &quot;Add new Employment Status&quot;)">runScenario("Add new Employment Status fail when input empty data", "Add new Employment Status")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="cucumberOptions.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Add new Job Title successfully&quot;, &quot;Add new Job Title&quot;)">runScenario("Add new Job Title successfully", "Add new Job Title")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="cucumberOptions.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Add new Employment Status successfully&quot;, &quot;Add new Employment Status&quot;)">runScenario("Add new Employment Status successfully", "Add new Employment Status")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -138,7 +177,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="cucumberOptions.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Update Dependents for employee&quot;, &quot;Add new Employee&quot;)">runScenario("Update Dependents for employee", "Add new Employee")</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="cucumberOptions.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Add new Pay Grades successfully&quot;, &quot;Add new Pay Grades&quot;)">runScenario("Add new Pay Grades successfully", "Add new Pay Grades")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Surefire_suite -->
@@ -153,6 +192,90 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">cucumberOptions.TestRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Update Immigration for employee&quot;, &quot;Add new Employee&quot;)">
+                  </a> <!-- runScenario("Update Immigration for employee", "Add new Employee") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Update Immigration for employee","Add new Employee")</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //p[contains(@class,&apos;oxd-text--toast-message&apos;) and text()=&apos;Successfully Saved&apos;] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.109, chrome: {chromedriverVersion: 131.0.6778.87 (ce31cae94873..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53553}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53553/devtoo..., se:cdpVersion: 131.0.6778.109, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4bc4fdb80c5a6770814390193c4466ac
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at commons.BasePage.waitForElementVisible(BasePage.java:412)
+	at pageObjects.CommonPageObject.isSuccessMessageDisplayed(CommonPageObject.java:41)
+	at stepDefinitions.CommonPageSteps.successMessageDisplayed(CommonPageSteps.java:125)
+	at ✽.Success message &quot;Successfully Saved&quot; displayed(file:///D:/Automation%20testing/03%20-%20Java%20Hybrid%20Framework/orangehrm-selenium-cucumber/src/test/java/features/05_pim_employee.feature:125)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Update Personal Details for employee&quot;, &quot;Add new Employee&quot;)">
+                  </a> <!-- runScenario("Update Personal Details for employee", "Add new Employee") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Update Personal Details for employee","Add new Employee")</span>
+                  <div class="stack-trace">java.lang.AssertionError: License Expiry Date mismatch expected [2024-01-03] but found [2024/01/03]
+	at stepDefinitions.PIM.PersonalDetailsPageSteps.personalDetailInformationDisplayedCorrect(PersonalDetailsPageSteps.java:40)
+	at ✽.Personal Detail information displayed correct as input(file:///D:/Automation%20testing/03%20-%20Java%20Hybrid%20Framework/orangehrm-selenium-cucumber/src/test/java/features/05_pim_employee.feature:43)
+... Removed 5 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Update Dependents for employee&quot;, &quot;Add new Employee&quot;)">
+                  </a> <!-- runScenario("Update Dependents for employee", "Add new Employee") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Update Dependents for employee","Add new Employee")</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h6[text()=&apos;Assigned Dependents&apos;]/ancestor::div[contains(@class,&apos;vertical-padding&apos;)]//following-sibling::div//div[@class=&apos;oxd-table-card&apos;]/div[@role=&apos;row&apos;][1]/div[4]/div[contains(text(),&apos;2022-07-04&apos;)]&quot;}
+  (Session info: chrome=131.0.6778.109)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4bc4fdb80c5a6770814390193c4466ac, findElement {value=//h6[text()=&apos;Assigned Dependents&apos;]/ancestor::div[contains(@class,&apos;vertical-padding&apos;)]//following-sibling::div//div[@class=&apos;oxd-table-card&apos;]/div[@role=&apos;row&apos;][1]/div[4]/div[contains(text(),&apos;2022-07-04&apos;)], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.109, chrome: {chromedriverVersion: 131.0.6778.87 (ce31cae94873..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53553}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53553/devtoo..., se:cdpVersion: 131.0.6778.109, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4bc4fdb80c5a6770814390193c4466ac
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at commons.BasePage.getWebElement(BasePage.java:153)
+	at commons.BasePage.isElementDisplayed(BasePage.java:299)
+	at pageObjects.CommonPageObject.isValueDisplayedAtColumnNameWithTableName(CommonPageObject.java:82)
+	at stepDefinitions.CommonPageSteps.verifyTheValueDisplayedAtTheColumnInTable(CommonPageSteps.java:150)
+	at ✽.Verify the table &quot;Assigned Dependents&quot; - column &quot;Date of Birth&quot; displays value &quot;2022-07-04&quot;(file:///D:/Automation%20testing/03%20-%20Java%20Hybrid%20Framework/orangehrm-selenium-cucumber/src/test/java/features/05_pim_employee.feature:111)
+... Removed 5 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
           <div class="suite-Surefire_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -161,10 +284,10 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;Add new Employee&quot;, &quot;Add new Employee&quot;)">
-                  </a> <!-- runScenario("Add new Employee", "Add new Employee") -->
+                  <a name="runScenario(&quot;Add new Job Title fail when input empty data&quot;, &quot;Add new Job Title&quot;)">
+                  </a> <!-- runScenario("Add new Job Title fail when input empty data", "Add new Job Title") -->
                   <span class="method-name">runScenario</span>
-                  <span class="parameters">("Add new Employee","Add new Employee")</span>
+                  <span class="parameters">("Add new Job Title fail when input empty data","Add new Job Title")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
@@ -181,10 +304,20 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;Log into to OrangeHRM site as Admin role successfully&quot;, &quot;Login to OrangeHRM site&quot;)">
-                  </a> <!-- runScenario("Log into to OrangeHRM site as Admin role successfully", "Login to OrangeHRM site") -->
+                  <a name="runScenario(&quot;Add new Employee&quot;, &quot;Add new Employee&quot;)">
+                  </a> <!-- runScenario("Add new Employee", "Add new Employee") -->
                   <span class="method-name">runScenario</span>
-                  <span class="parameters">("Log into to OrangeHRM site as Admin role successfully","Login to OrangeHRM site")</span>
+                  <span class="parameters">("Add new Employee","Add new Employee")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Add new Pay Grades fail when input empty data&quot;, &quot;Add new Pay Grades&quot;)">
+                  </a> <!-- runScenario("Add new Pay Grades fail when input empty data", "Add new Pay Grades") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Add new Pay Grades fail when input empty data","Add new Pay Grades")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
@@ -201,20 +334,40 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;Update Immigration for employee&quot;, &quot;Add new Employee&quot;)">
-                  </a> <!-- runScenario("Update Immigration for employee", "Add new Employee") -->
+                  <a name="runScenario(&quot;Log into to OrangeHRM site as Admin role successfully&quot;, &quot;Login to OrangeHRM site&quot;)">
+                  </a> <!-- runScenario("Log into to OrangeHRM site as Admin role successfully", "Login to OrangeHRM site") -->
                   <span class="method-name">runScenario</span>
-                  <span class="parameters">("Update Immigration for employee","Add new Employee")</span>
+                  <span class="parameters">("Log into to OrangeHRM site as Admin role successfully","Login to OrangeHRM site")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;Update Personal Details for employee&quot;, &quot;Add new Employee&quot;)">
-                  </a> <!-- runScenario("Update Personal Details for employee", "Add new Employee") -->
+                  <a name="runScenario(&quot;Add new Employment Status fail when input empty data&quot;, &quot;Add new Employment Status&quot;)">
+                  </a> <!-- runScenario("Add new Employment Status fail when input empty data", "Add new Employment Status") -->
                   <span class="method-name">runScenario</span>
-                  <span class="parameters">("Update Personal Details for employee","Add new Employee")</span>
+                  <span class="parameters">("Add new Employment Status fail when input empty data","Add new Employment Status")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Add new Job Title successfully&quot;, &quot;Add new Job Title&quot;)">
+                  </a> <!-- runScenario("Add new Job Title successfully", "Add new Job Title") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Add new Job Title successfully","Add new Job Title")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Add new Employment Status successfully&quot;, &quot;Add new Employment Status&quot;)">
+                  </a> <!-- runScenario("Add new Employment Status successfully", "Add new Employment Status") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Add new Employment Status successfully","Add new Employment Status")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
@@ -231,10 +384,10 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;Update Dependents for employee&quot;, &quot;Add new Employee&quot;)">
-                  </a> <!-- runScenario("Update Dependents for employee", "Add new Employee") -->
+                  <a name="runScenario(&quot;Add new Pay Grades successfully&quot;, &quot;Add new Pay Grades&quot;)">
+                  </a> <!-- runScenario("Add new Pay Grades successfully", "Add new Pay Grades") -->
                   <span class="method-name">runScenario</span>
-                  <span class="parameters">("Update Dependents for employee","Add new Employee")</span>
+                  <span class="parameters">("Add new Pay Grades successfully","Add new Pay Grades")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
@@ -300,44 +453,68 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(8);
+data.addRows(14);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
 data.setCell(0, 2, 'cucumberOptions.TestRunner')
-data.setCell(0, 3, 12815);
+data.setCell(0, 3, 35482);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'runScenario')
 data.setCell(1, 2, 'cucumberOptions.TestRunner')
-data.setCell(1, 3, 11236);
+data.setCell(1, 3, 23386);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'runScenario')
 data.setCell(2, 2, 'cucumberOptions.TestRunner')
-data.setCell(2, 3, 9867);
+data.setCell(2, 3, 17872);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'runScenario')
 data.setCell(3, 2, 'cucumberOptions.TestRunner')
-data.setCell(3, 3, 8650);
+data.setCell(3, 3, 15332);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'runScenario')
 data.setCell(4, 2, 'cucumberOptions.TestRunner')
-data.setCell(4, 3, 8267);
+data.setCell(4, 3, 14362);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'runScenario')
 data.setCell(5, 2, 'cucumberOptions.TestRunner')
-data.setCell(5, 3, 8070);
+data.setCell(5, 3, 13962);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'runScenario')
 data.setCell(6, 2, 'cucumberOptions.TestRunner')
-data.setCell(6, 3, 7926);
+data.setCell(6, 3, 11657);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'runScenario')
 data.setCell(7, 2, 'cucumberOptions.TestRunner')
-data.setCell(7, 3, 5957);
+data.setCell(7, 3, 10875);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'runScenario')
+data.setCell(8, 2, 'cucumberOptions.TestRunner')
+data.setCell(8, 3, 10138);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'runScenario')
+data.setCell(9, 2, 'cucumberOptions.TestRunner')
+data.setCell(9, 3, 8373);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'runScenario')
+data.setCell(10, 2, 'cucumberOptions.TestRunner')
+data.setCell(10, 3, 7073);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'runScenario')
+data.setCell(11, 2, 'cucumberOptions.TestRunner')
+data.setCell(11, 3, 6156);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'runScenario')
+data.setCell(12, 2, 'cucumberOptions.TestRunner')
+data.setCell(12, 3, 5558);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'runScenario')
+data.setCell(13, 2, 'cucumberOptions.TestRunner')
+data.setCell(13, 3, 5275);
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
               <div id="times-div-Surefire_suite">
               </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->
@@ -365,44 +542,74 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">cucumberOptions.TestRunner</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@213bd8f0)</span>
+                <span class="method-name">setUpClass(org.testng.TestRunner@1c3d04ba)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">runScenario("Log into to OrangeHRM site as Admin role successfully", "Login to OrangeHRM site")</span>
-                <span class="method-start">527 ms</span>
+                <span class="method-start">519 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Add new Job Title fail when input empty data", "Add new Job Title")</span>
+                <span class="method-start">12178 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Add new Job Title successfully", "Add new Job Title")</span>
+                <span class="method-start">18335 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Add new Pay Grades fail when input empty data", "Add new Pay Grades")</span>
+                <span class="method-start">32698 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Add new Pay Grades successfully", "Add new Pay Grades")</span>
+                <span class="method-start">37974 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Add new Employment Status fail when input empty data", "Add new Employment Status")</span>
+                <span class="method-start">55846 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Add new Employment Status successfully", "Add new Employment Status")</span>
+                <span class="method-start">61405 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("Add new Employee", "Add new Employee")</span>
-                <span class="method-start">9179 ms</span>
+                <span class="method-start">72280 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">runScenario("Update Personal Details for employee", "Add new Employee")</span>
-                <span class="method-start">21994 ms</span>
+                <span class="method-start">87612 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("Upload Avatar for employee", "Add new Employee")</span>
-                <span class="method-start">33231 ms</span>
+                <span class="method-start">101575 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("Update Contact Details for employee", "Add new Employee")</span>
-                <span class="method-start">41157 ms</span>
+                <span class="method-start">109948 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("Update Emergency Contacts for employee", "Add new Employee")</span>
-                <span class="method-start">51024 ms</span>
+                <span class="method-start">120086 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">runScenario("Update Dependents for employee", "Add new Employee")</span>
-                <span class="method-start">56981 ms</span>
+                <span class="method-start">127159 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">runScenario("Update Immigration for employee", "Add new Employee")</span>
-                <span class="method-start">65052 ms</span>
+                <span class="method-start">150547 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">73321 ms</span>
+                <span class="method-start">186031 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
