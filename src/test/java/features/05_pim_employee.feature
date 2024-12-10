@@ -1,4 +1,4 @@
-@run
+
 Feature: Add new Employee
 
   Scenario Outline: Add new Employee
