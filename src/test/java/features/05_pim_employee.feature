@@ -46,7 +46,7 @@ Feature: Add new Employee
 
     Examples: Personal Detail information
       | firstName | lastName | employeeId | licenseNumber | licenseExpiryDate | nationality | maritalStatus | dateOfBirth | gender |
-      | John      | Brown    | 001        | D08954796     | 2024/01/03        | American    | Married       | 1998/03/02  | Male   |
+      | John      | Brown    | 001        | D08954796     | 2024-01-03        | American    | Married       | 1998-03-02  | Male   |
 
   Scenario Outline: Upload Avatar for employee
     Given Click to Avatar picture
@@ -112,7 +112,7 @@ Feature: Add new Employee
 
     Examples: Dependents information
       | dependentName | dependentRelationship | dependentDateOfBirth | tableName           |
-      | Rosy Brown    | Child                 | 2022/07/04           | Assigned Dependents |
+      | Rosy Brown    | Child                 | 2022-07-04           | Assigned Dependents |
 
   Scenario Outline: Update Immigration for employee
     Given Navigate to "Immigration" page in header menu
@@ -130,5 +130,5 @@ Feature: Add new Employee
 
     Examples: Immigration information
       | documentType | docNumber | issuedDate | expiryDate | issuedBy      | eligibleReviewDate |
-      | Passport     | 422016774 | 2017/01/02 | 2027/01/02 | United States | 2023/01/02         |
+      | Passport     | 422016774 | 2017-01-02 | 2027-01-02 | United States | 2023-01-02         |
 

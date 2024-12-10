@@ -322,3 +322,6 @@ Session ID: 72b6b3ad7170e6497a493d847cf174f5
 [08-12-2024 22:51:25.716 INFO cucumberOptions.Hooks] - TestContext initialized
 [08-12-2024 22:51:31.939 INFO cucumberOptions.Hooks] - Opened URL for environment [demo]: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
 [08-12-2024 22:51:32.015 INFO cucumberOptions.Hooks] - ------------- Started the browser -------------
+[10-12-2024 21:05:42.789 INFO cucumberOptions.Hooks] - TestContext initialized
+[10-12-2024 21:06:11.233 INFO cucumberOptions.Hooks] - Opened URL for environment [demo]: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[10-12-2024 21:06:11.304 INFO cucumberOptions.Hooks] - ------------- Started the browser -------------
