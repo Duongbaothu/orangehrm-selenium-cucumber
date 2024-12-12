@@ -1,4 +1,3 @@
-
 Feature: Add new Employment Status
 
   Scenario: Add new Employment Status fail when input empty data

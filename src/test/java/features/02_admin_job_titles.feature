@@ -1,4 +1,3 @@
-
 Feature: Add new Job Title
 
   Scenario: Add new Job Title fail when input empty data

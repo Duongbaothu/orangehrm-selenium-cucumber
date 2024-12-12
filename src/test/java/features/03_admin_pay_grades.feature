@@ -1,4 +1,3 @@
-
 Feature: Add new Pay Grades
 
   Scenario: Add new Pay Grades fail when input empty data
